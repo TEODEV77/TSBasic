@@ -1,3 +1,5 @@
-(()=> {
-    console.log("Hi, TypeScript")
-}) ();
+(() => {
+  let isDone: boolean = false;
+  let isActive: boolean = false;
+  let isValid: boolean = true;
+})();
