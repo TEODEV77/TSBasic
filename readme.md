@@ -48,4 +48,65 @@
   })();
 }
 ```
+# Examples - Number
+
+```typescript
+{
+  (() => {
+  
+  let price: number = 300;
+  let stock: number = 50;
+  let discount: number = 0.1;
+  
+  })();
+}
+```
+
+# Examples - String
+
+> **IMPORTANT**
+> You can use **double quotes (")** or **single quotes (')**
+> You can also use template strings **`My name is ${firstName}`**
+
+```typescript
+{
+  (() => {
+  
+  let firstName: string;
+  let lastName: string;
+  let fulltName: string;
+  let template: string = `My name is ${firstName}`;
+  })();
+}
+```
+
+# Examples - Array
+
+```typescript
+{
+  (() => {
+  
+  let numbers: number[] = [1, 2, 3];
+  let fruits: string [] = ["Apple", "Lemon", "Carrot"];
+  let languages: string [] = ["Java","Python","C#"]
+  
+  })();
+}
+```
+
+# Examples - Tuple
+
+```typescript
+{
+  (() => {
+  
+  let tuple: [string, number];
+  let tuple2: [string, boolean];
+  let tuple3: [string, number, boolean];
+  
+  })();
+}
+```
+
+
 
