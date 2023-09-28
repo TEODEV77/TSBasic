@@ -1,25 +1,9 @@
-# A basic template for getting started with TypeScript
+# Ways to define a variable in TS
 
-## Dependencies
+| Define | Description |
+|---|---|
+| **var** | They have a function scope. They can be reassigned and redeclared in the same function. |
+| **let** | They have a block scope. They can be reassigned, but not redeclared in the same block. |
+| **const** | They also have a block scope. They cannot be reassigned or redeclared after their initialization. |
 
-Run the following command
 
-```bash
-  npm install
-```
-
-## Dev Dependencies
-
-Run the following command
-
-```bash
-  npm i typescript --save-dev
-```
-
-## Compilation / Transpilling 
-
-Run the following command
-
-```bash
-  npx tsc --watch
-```
